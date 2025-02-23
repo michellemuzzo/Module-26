@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: #f9e0e6; /* Light pink background */
 }
 
 .logo {
@@ -10,12 +11,15 @@
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
+  color: #ff8bbf; /* Feminine pink color for logo */
 }
+
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #ff80bf);
 }
+
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #ff61af);
 }
 
 @keyframes logo-spin {
@@ -35,8 +39,60 @@
 
 .card {
   padding: 2em;
+  background-color: #fff1f6; /* Slightly lighter pink for cards */
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .read-the-docs {
-  color: #888;
+  color: #ff69b4; /* Hot pink color for links */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ff4f9d; /* Colorful font for headers */
+}
+
+p {
+  color: #c84f83; /* Slightly darker pink for paragraphs */
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #ff8bbf; /* Feminine pink for buttons */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff4d94; /* Darker pink on hover */
+}
+
+button:focus {
+  outline: none;
+  border: 2px solid #ff61af; /* Accent border on focus */
+}
+
+/* Additional styling for table */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ff8bbf;
+}
+
+th {
+  background-color: #ffb6d1; /* Light pink for header */
+  color: #fff;
+}
+
+tr:hover {
+  background-color: #f6c7d9; /* Light hover effect on rows */
 }
